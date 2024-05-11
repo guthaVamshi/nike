@@ -1,0 +1,109 @@
+.container{
+    padding: 0% !important;
+}
+.nav-link{
+    color: black !important;
+}
+
+.card-body{
+    height: 80%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    backdrop-filter:inherit;
+}
+
+.cardhead{
+    color: white;
+    font-size:larger;
+    font-weight: bolder;
+    margin-left: 2em;
+}
+.card-body{
+    color: white;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+    align-items:flex-start;
+   
+
+}
+.cardbody{
+    color: white;
+    margin-left: 2em;
+}
+.cardbody button{
+    border-radius: 20px;
+    padding: 0 1em;
+    border: none;
+    outline: none;
+    
+}
+.shopnow{
+    border-radius: 20px;
+    padding:0.55em;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.jordoncolor1,.jordoncolor2,.jordoncolor3,.jordoncolor4{
+    cursor:pointer;
+}
+
+.jordonheropage{
+    background-image: url(images/jordonBackground.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:35rem;
+    color: white;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+
+}
+.airmaxheropage{
+    background-image: url(images/airmaxhero.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:35rem;
+    color: white;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+
+}
+.dunkheropage{
+    background-image: url(images/dunkhero.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:35rem;
+    color: white;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+
+}
+img{
+    border-radius: 10px;
+}
+@media (max-width: 798px) {
+    .memberoffers,.products{
+        flex-wrap: wrap;
+        
+    }
+    .youmaylike{
+        flex-direction: column;
+    }
+    
+  }
