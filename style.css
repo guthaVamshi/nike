@@ -49,6 +49,19 @@
     border-radius: 20px;
     
 }
+.abouthero{
+    background-image: url(images/nikeheadquaters.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:45rem;
+    color: white;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
 .cardhead{
     color: white;
     font-size:larger;
