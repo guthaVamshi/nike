@@ -5,6 +5,10 @@
     color: black !important;
 }
 
+.active{
+    background-color: black !important;
+    color: white !important;
+}
 .card-body{
     height: 80%;
     width: 100%;
@@ -13,7 +17,18 @@
     position: absolute;
     backdrop-filter:inherit;
 }
-
+.indexhero{
+    background-image: url(images/indexhero.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:45rem;
+    color: white;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
 .cardhead{
     color: white;
     font-size:larger;
