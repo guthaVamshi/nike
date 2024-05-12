@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+}
 .container{
     padding: 0% !important;
 }
@@ -22,12 +27,27 @@
     background-size:cover;
     background-repeat: no-repeat;
     height:45rem;
+    color: rgb(235, 224, 205);
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+.comparehero{
+    background-color: black;
+    height:10rem;
     color: white;
     text-shadow:
         0.07em 0 black,
         0 0.07em black,
         -0.07em 0 black,
         0 -0.07em black;
+    margin: 3rem 0 ;
+}
+.comparehero button{
+    border-radius: 20px;
+    
 }
 .cardhead{
     color: white;
@@ -48,7 +68,7 @@
     color: white;
     margin-left: 2em;
 }
-.cardbody button{
+.cardbody button, button{
     border-radius: 20px;
     padding: 0 1em;
     border: none;
@@ -119,6 +139,9 @@ img{
     }
     .youmaylike{
         flex-direction: column;
+    }
+    #tableimage{
+        display: none;
     }
     
   }
