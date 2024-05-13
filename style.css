@@ -34,6 +34,19 @@
         -0.07em 0 black,
         0 -0.07em black;
 }
+.add{
+    height: 45rem;
+}
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+ }
 .comparehero{
     background-color: black;
     height:10rem;
@@ -153,7 +166,7 @@ img{
     .youmaylike{
         flex-direction: column;
     }
-    #tableimage{
+    #tableimage,.add{
         display: none;
     }
     
